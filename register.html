@@ -13,9 +13,6 @@
     <link rel="stylesheet" href="style-register.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <style>
-        body {
-            background-color: rgb(185, 223, 210);
-        }
     </style>
 </head>
 
@@ -52,32 +49,38 @@
         </div>
     </nav>
     <div class="container">
-        <form>
-            <h1 class="text-center p-5">REGISTER</h1>
-            <div class="form-group">
+        <div style="background-color:#b9dfd2 ;border: 1px solid rgb(109, 109, 109);border-radius: 10px;">
+            <form>
+                <h1 class="text-center p-5">REGISTER</h1>
                 <div class="form-group">
                     <label for="Username">Username</label>
                     <input type="text" class="form-control" id="Username" required>
                 </div>
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" required>
-            </div>
-            <div class="form-group ">
-                <label for="address">Address</label>
-                <textarea class="form-control address" id="address" rows="3"></textarea>
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="tos" required>
-                <label class=" form-check-label" for="tos">term and condition</label>
-            </div>
-            <div class="text-center p-3">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="reset" class="btn btn-primary">Reset</button>
-            </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+                <div class="form-group ">
+                    <label for="address">Address</label>
+                    <textarea class="form-control address" id="address" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="telp">Telp</label>
+                    <input type="text" class="form-control" id="telp" required>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="tos" required>
+                    <label class=" form-check-label" for="tos">term and condition</label>
+                </div>
+                <div class="text-center p-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-primary">Reset</button>
+                </div>
+        </div>
         </form>
     </div>
 
