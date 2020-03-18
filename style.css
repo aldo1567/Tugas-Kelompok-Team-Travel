@@ -1,0 +1,32 @@
+.isi{
+    margin: auto;
+    width: 900px;
+    padding-top: 30px;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+}
+
+.isi hr{
+    width: 600px;
+    height: 5px;
+}
+
+.galeri{
+    margin: auto;
+    width: 900px;
+    padding-top: 30px;
+    background-color: aliceblue;
+    padding-bottom: 30px;
+}
+
+.galeri img{
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    transition: all 2s ease;
+}
+
+.galeri img:hover{
+    transform: scale(1.2);
+    border: 7px solid black;
+}
