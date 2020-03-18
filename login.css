@@ -1,0 +1,9 @@
+.input1 {
+    width: 80%;
+    height: auto;
+}
+
+.bg {
+    background-image: url('/img/bg.jpg');
+    background-size: cover;
+}
